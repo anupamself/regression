@@ -15,6 +15,7 @@ public class surech_hero_rocks {
 	
 	@Test
 	public void syso() throws MalformedURLException {
+		System.out.println("started----hello suresh rocks");
 		WebDriverManager.chromedriver().setup();
 		DesiredCapabilities dc=new DesiredCapabilities();
 		dc.setBrowserName("chrome");
